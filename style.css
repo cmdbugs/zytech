@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+*{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 55.5%;
+    font-family:"Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+h1{
+    font-weight: 800;
+    font-size: 3.6rem;
+    margin: 1.6rem;
+
+    
+}
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+}
+p{
+    font-weight: 200;
+    font-size: 1.6rem ;
+    margin: 1.8rem 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(32, 34, 31, 0.7),rgba(138, 37, 37, 0.7) ), url(image/0d042353d92f11be4d9df990aecd41af.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+.Logo h1 a{
+font-size: 3.2rem;
+color: gold;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+nav ul li a:hover{
+    color: gold;
+    transition: 1.9s ease-in-out;
+}
+.Header-Cnt{
+width: 50%;
+position: relative;
+top: 16%;
+left: 8%;
+
+}
+
+form{
+    margin: 2.4rem 0;
+}
+input{
+    font-size: 1.8rem;
+}
+input[type=text],
+input[type=email]{
+    width: 50%;
+    background-color:whitesmoke;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid red;
+}
+input[type=submit]{
+width: 50%;
+background-color: gold;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.About-Us{
+padding: 100px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.about_left,
+.about_middle,
+.about_right{
+flex-basis: 30%;
+padding: 1.6rem;
+}
+.btn{
+    background-color: gold;
+    color: white;
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 2rem 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor:alias;
+
+}
+.About-2{
+    background-color: #222;
+    color: whitesmoke;
+    padding: 100px 0;
+}
+.about2_left{
+    flex-basis: 50%;
+}
+.about2_right{
+    flex-basis: 50%;
+}
+.card{
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #dcdcdc;
+    margin: 1.6rem;
+    text-align: center;
+}
+.Process{
+    padding: 100px 0;
+}
+.Process-content,.Progress-content{
+    text-align: center;
+}
+.Progress-bar{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+.c1,.c2,.c3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+.c1{
+   top:-8px ; 
+   left: 50px;
+   background-color: red;
+}
+.c2{
+  top:-8px ; 
+   left: 50%;
+   background-color: green;  
+}
+.c3{
+   top:-8px ; 
+   right: 50px;
+   background-color: aqua;   
+}
+.box1{
+    padding: 1.8rem;
+    text-align: left;
+}
+.box2{
+    padding: 1.8rem;
+    text-align: center;
+}
+.box3{
+      padding: 1.8rem;
+      text-align: right;
+}
+.Testimonials{
+    background-color: #222;
+    color: whitesmoke;
+    padding: 100px 0;
+}
+.test{
+    background-color: #4c4936;
+    padding: 4rem;
+    margin:0 1rem ;
+}
+
+.img-test img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Contact{
+    padding: 100px 0;
+}
+.Contact-text h1{
+text-align: center;
+}
+.Contact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact form input{
+    width: 50%;
+}
+.Contact textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+    color: #ccc;
+    margin: 1.2rem 0;
+    font-family: sans-serif;
+}
+footer{
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
